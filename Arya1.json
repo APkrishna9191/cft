@@ -720,7 +720,7 @@
 
 			"setenforce 0\n",
 
-			"echo Welcome to AWS-CFT >> /var/www/html/index.html"
+			"echo Welcome to CFT-Template >> /var/www/html/index.html"
 
 			] ]
 
