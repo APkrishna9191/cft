@@ -718,6 +718,8 @@
 
 			"sudo systemctl start httpd\n",
 		
+		        "sudo yum install -y git\n",
+		
 		        "sudo setenforce 0\n"
 		        
 
