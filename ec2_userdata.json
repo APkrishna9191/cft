@@ -712,15 +712,16 @@
 
             "#!/bin/bash\n",
 
-			"yum install -y httpd\n",
+			"sudo yum install -y httpd\n",
 
-			"systemctl enable httpd\n",
+			"sudo systemctl enable httpd\n",
 
-			"systemctl start httpd\n",
+			"sudo systemctl start httpd\n",
 
-		        "echo hello sanjay welcome to  cft > /var/www/html/index.html\n",
+		        "sudo echo  arya > /var/www/html/index.html\n",
 
-		        "setenforce 0"
+		        "sudo setenforce 0\n"
+		        
 
 			] ]
 
