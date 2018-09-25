@@ -720,7 +720,8 @@
 
 			"setenforce 0\n",
 
-			"echo Welcome to AWS-CFT-Arya >> /var/www/html/index.html"
+			"echo Welcome to AWS-CFT-Arya >> /var/www/html/index.html",
+		        "yum install wget -y"
 
 			] ]
 
